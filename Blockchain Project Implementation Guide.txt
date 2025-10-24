@@ -1,0 +1,55 @@
+Blockchain Project Implementation Guide
+---------------------------------------
+
+1. Clone the Template Repository:
+   git clone https://github.com/bhupendra-chouhan/hardhat-project-template-for-core-blockchain
+   cd hardhat-project-template-for-core-blockchain
+
+2. Install Dependencies:
+   npm install
+
+3. Setup Environment Variables:
+   - Copy .env.example to .env
+   - Add your MetaMask private key and RPC URL (Infura/Alchemy)
+
+4. Update Project Info:
+   - Edit package.json -> change "name" to your project name
+   - Rename Project.sol in contracts/ to your contract name (e.g. Lending.sol)
+
+5. Write Smart Contracts:
+   - Add or modify Solidity code in the contracts/ folder
+   - Follow versioning and import best practices
+
+6. Create Deployment Script:
+   - Edit scripts/deploy.js to deploy your new contract
+   - Add constructor arguments if required
+
+7. Configure Networks:
+   - Update hardhat.config.js for local/testnet/mainnet RPC URLs
+   - Ensure private key and network IDs are correct
+
+8. Test the Contract:
+   - Write test cases in test/ folder using Mocha/Chai
+   - Run: npx hardhat test
+
+9. Deploy the Contract:
+   - For local: npx hardhat node (in one terminal)
+   - Deploy: npx hardhat run scripts/deploy.js --network localhost
+   - For testnet/mainnet: update network name accordingly
+
+10. Integrate with Frontend:
+    - Use ethers.js or web3.js in your React app
+    - Import ABI and deployed contract address from artifacts/
+
+11. Commit and Push:
+    - git init (if new repo)
+    - git add . && git commit -m "Initial project setup"
+    - git remote add origin <your-repo-url>
+    - git push origin main
+
+12. Keep Secure:
+    - Never push .env file
+    - Use .gitignore to protect sensitive info
+
+---------------------------------------
+Your Hardhat blockchain project is ready to build upon!
