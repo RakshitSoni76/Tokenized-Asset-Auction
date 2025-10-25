@@ -2,8 +2,7 @@ Blockchain Project Implementation Guide
 ---------------------------------------
 
 1. Clone the Template Repository:
-   git clone https://github.com/bhupendra-chouhan/hardhat-project-template-for-core-blockchain
-   cd hardhat-project-template-for-core-blockchain
+   Done
 
 2. Install Dependencies:
    npm install
