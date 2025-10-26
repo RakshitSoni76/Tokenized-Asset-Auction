@@ -5,7 +5,7 @@ Blockchain Project Implementation Guide
    Done
 
 2. Install Dependencies:
-   npm install
+   npm install - done
 
 3. Setup Environment Variables:
    - Copy .env.example to .env
