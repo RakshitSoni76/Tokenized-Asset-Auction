@@ -6,7 +6,7 @@ Short Development Flow for Blockchain-based Tokenized Asset Auction Project
    - Choose blockchain: Ethereum, Polygon, or Binance Smart Chain for cost-effective token operations.
 
 2. Design System Architecture
-   - Frontend: React.js / Next.js
+   - Frontend: React.js
    - Backend: Node.js / Express
    - Smart Contracts: Solidity (for Ethereum-compatible chains)
    - Database: IPFS (for asset metadata and documents) + MongoDB/PostgreSQL (for user data and analytics)
